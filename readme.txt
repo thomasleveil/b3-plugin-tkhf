@@ -32,3 +32,4 @@ Changelog
 Support
 -------
 
+http://forum.bigbrotherbot.net/plugins-by-courgette/teamkill-homefront-plugin/
