@@ -38,6 +38,7 @@ class TkhfPlugin(Plugin):
     def onEvent(self, event):
         if event.type == EVT_CLIENT_KILL_TEAM:
             self.console.write('admin kill "%s"' % event.client.guid)
+            event.client.message("Team kill is bad ! You kill a team mate -> you get killed")
 
 
 if __name__ == '__main__':
