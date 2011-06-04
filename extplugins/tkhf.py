@@ -20,8 +20,10 @@
 # 
 # 2011-05-01 - 1.0 - Courgette
 # * first release
+# 2011-06-04 - 1.1 - Courgette
+# * update plugin due to changes in Homefront 1.0.4 patch
 #
-__version__ = '1.0'
+__version__ = '1.1'
 __author__  = 'Courgette'
 
 from b3.plugin import Plugin
@@ -35,7 +37,7 @@ class TkhfPlugin(Plugin):
 
     def onEvent(self, event):
         if event.type == EVT_CLIENT_KILL_TEAM:
-            self.console.write('admin kill "%s"' % event.client.name)
+            self.console.write('admin kill "%s"' % event.client.guid)
 
 
 if __name__ == '__main__':

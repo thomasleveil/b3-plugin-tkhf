@@ -25,8 +25,10 @@ Changelog
 ---------
 
 2011-05-01 - 1.0 
-* first release.
+ * first release.
 
+2011-06-04 - 1.1 - Courgette
+ * update plugin due to changes in Homefront 1.0.4 patch
 
 
 Support
